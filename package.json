@@ -1,0 +1,55 @@
+{
+  "name": "@imnayakshubham/react-screen-recorder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A component for recording screen",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react screen recorder",
+    "screen recording react",
+    "react screen recording example",
+    "react screen recording tutorial",
+    "react screen record API",
+    "react recording app",
+    "react recording solution"
+  ],
+  "author": "Nayak Shubham",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imnayakshubham/react-screen-recorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imnayakshubham/react-screen-recorder/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepare": "npm run build",
+    "publish:prod": "npm publish"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.11.0",
+    "vite": "^5.4.10"
+  }
+}

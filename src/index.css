@@ -1,0 +1,19 @@
+.screen__record__action__btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.screen__record__action__btn:hover {
+  border-color: #646cff;
+}
+
+.screen__record__action__btn:focus,
+.screen__record__action__btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
